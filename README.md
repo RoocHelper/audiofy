@@ -27,9 +27,11 @@
 
 ### 🎵 Dengarkan apa saja
 - **Cari** lagu, album, artis, dan playlist dari katalog YouTube Music.
-- **Beranda** berisi lagu teratas di negaramu (otomatis dari lokasi perangkat) **dan** lagu teratas global, rilis baru, serta genre.
+- **Beranda** berisi lagu teratas di negaramu (otomatis dari lokasi perangkat) **dan** tangga lagu barat (Amerika Serikat; bisa diganti ke Inggris, Korea, Jepang, atau Global), rilis baru, serta genre.
+- **Untukmu**: rekomendasi dari artis yang paling sering kamu putar dan sukai.
 - **Langsung diputar** tanpa menunggu unduhan; lagu berikutnya disiapkan lebih dulu, jadi pindah lagu terasa instan.
-- **Koleksi**: suka lagu, simpan album/artis/playlist, dan buat playlist sendiri.
+- **Koleksi**: suka lagu, simpan album/artis/playlist, buat playlist sendiri, dan simpan antrean yang sedang diputar jadi playlist.
+- **Bagikan lagu**: salin link YouTube Music-nya untuk dikirim ke teman.
 - **Impor playlist dari link** YouTube / YouTube Music: tempel link-nya, isinya jadi playlist di Audiofy.
 - **Radio otomatis**: saat antrean habis, lagu serupa terus diputar.
 
@@ -149,7 +151,8 @@ Audiofy adalah proyek pribadi dan **tidak berafiliasi dengan Google, YouTube, at
 
 **Audiofy (by Williams)** is a lightweight YouTube Music player for Windows 10/11. No account needed.
 
-- Search and stream songs, albums, artists and playlists; home charts for your country plus global charts.
+- Search and stream songs, albums, artists and playlists; home charts for your country plus Western (US) charts, and "For you" picks from what you play most.
+- Share a song (copy its link), save the queue as a playlist.
 - Synced lyrics, official music videos (with lyric subtitles that wait for the video's intro), selectable video quality.
 - One-click karaoke (removes the lead vocal, keeps bass and drums), equalizer presets, speed, reverb, crossfade.
 - Mini player (Ctrl+M) with cover or video, system tray, media keys, output device picker, sleep timer.
