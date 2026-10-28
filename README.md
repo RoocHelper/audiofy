@@ -33,7 +33,13 @@
 - **Koleksi**: suka lagu, simpan album/artis/playlist, buat playlist sendiri, dan simpan antrean yang sedang diputar jadi playlist.
 - **Bagikan lagu**: salin link YouTube Music-nya untuk dikirim ke teman.
 - **Impor playlist dari link** YouTube / YouTube Music: tempel link-nya, isinya jadi playlist di Audiofy.
+- **Tab YouTube** di pencarian: video, cover, versi live, **podcast**, dan channel dari YouTube biasa. Saran pencarian juga mengambil dari YouTube.
 - **Radio otomatis**: saat antrean habis, lagu serupa terus diputar.
+
+### 🎙️ Podcast & video panjang
+- Dibuka sebagai video (bisa dialihkan ke **suara saja** untuk hemat kuota).
+- **Lanjut dari menit terakhir** saat dibuka lagi, tombol **mundur 15 / maju 30 detik**, dan **daftar bab** yang bisa diklik.
+- Kecepatan putar 1,25× / 1,5× dan mini player ikut berfungsi.
 
 ### 📝 Lirik tersinkron
 <img src="docs/images/lyrics.png" alt="Lirik tersinkron" width="100%">
@@ -151,7 +157,7 @@ Audiofy adalah proyek pribadi dan **tidak berafiliasi dengan Google, YouTube, at
 
 **Audiofy (by Williams)** is a lightweight YouTube Music player for Windows 10/11. No account needed.
 
-- Search and stream songs, albums, artists and playlists; home charts for your country plus Western (US) charts, and "For you" picks from what you play most.
+- Search and stream songs, albums, artists and playlists, plus a YouTube tab (videos, podcasts, channels); home charts for your country plus Western (US) charts, and "For you" picks from what you play most.
 - Share a song (copy its link), save the queue as a playlist.
 - Synced lyrics, official music videos (with lyric subtitles that wait for the video's intro), selectable video quality.
 - One-click karaoke (removes the lead vocal, keeps bass and drums), equalizer presets, speed, reverb, crossfade.
