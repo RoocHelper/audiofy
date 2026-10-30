@@ -3,162 +3,155 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RoocHelper/audiofy/releases/latest"><img alt="Versi terbaru" src="https://img.shields.io/github/v/release/RoocHelper/audiofy?label=versi&color=7c5cff"></a>
-  <a href="https://github.com/RoocHelper/audiofy/releases"><img alt="Unduhan" src="https://img.shields.io/github/downloads/RoocHelper/audiofy/total?label=unduhan&color=3ddc84"></a>
+  <a href="https://github.com/RoocHelper/audiofy/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/RoocHelper/audiofy?label=version&color=7c5cff"></a>
+  <a href="https://github.com/RoocHelper/audiofy/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/RoocHelper/audiofy/total?label=downloads&color=3ddc84"></a>
   <img alt="Windows 10/11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
-  <a href="LICENSE"><img alt="Lisensi GPL-3.0" src="https://img.shields.io/badge/lisensi-GPL--3.0-orange"></a>
+  <a href="LICENSE"><img alt="License GPL-3.0" src="https://img.shields.io/badge/license-GPL--3.0-orange"></a>
 </p>
 
 <p align="center">
-  <b>Pemutar musik untuk kita semua.</b><br>
-  Dengarkan lagu dari YouTube Music di Windows: ringan, cepat, lengkap dengan lirik,<br>
-  video musik, karaoke, dan equalizer. Tanpa perlu akun.
+  <b>Music for everyone.</b><br>
+  Listen to YouTube Music on Windows: light, fast, with synced lyrics,<br>
+  music videos, karaoke and an equalizer. No account needed.
 </p>
 
 <p align="center">
-  <a href="https://github.com/RoocHelper/audiofy/releases/latest"><b>⬇️ Unduh Audiofy</b></a>
+  <a href="https://github.com/RoocHelper/audiofy/releases/latest"><b>⬇️ Download Audiofy</b></a>
+  &nbsp;·&nbsp;
+  <a href="README.id.md">🇮🇩 Baca dalam Bahasa Indonesia</a>
 </p>
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-<img src="docs/images/home-playing.png" alt="Beranda Audiofy" width="100%">
+<img src="docs/images/home-playing.png" alt="Audiofy home page" width="100%">
 
-### 🎵 Dengarkan apa saja
-- **Cari** lagu, album, artis, dan playlist dari katalog YouTube Music.
-- **Beranda** berisi lagu teratas di negaramu (otomatis dari lokasi perangkat) **dan** tangga lagu barat (Amerika Serikat; bisa diganti ke Inggris, Korea, Jepang, atau Global), rilis baru, serta genre.
-- **Untukmu**: rekomendasi dari artis yang paling sering kamu putar dan sukai.
-- **Langsung diputar** tanpa menunggu unduhan; lagu berikutnya disiapkan lebih dulu, jadi pindah lagu terasa instan.
-- **Koleksi**: suka lagu, simpan album/artis/playlist, buat playlist sendiri, dan simpan antrean yang sedang diputar jadi playlist.
-- **Bagikan lagu**: salin link YouTube Music-nya untuk dikirim ke teman.
-- **Impor playlist dari link** YouTube / YouTube Music: tempel link-nya, isinya jadi playlist di Audiofy.
-- **Radio otomatis**: saat antrean habis, lagu serupa terus diputar.
+### 🎵 Listen to anything
+- **Search** songs, albums, artists and playlists from the YouTube Music catalog.
+- **Home** shows the top songs and trending songs in the United States (or any country you pick in Settings), plus new releases and genres.
+- **For you**: picks based on the artists you play and like most.
+- **Plays instantly**, without waiting for a download; the next song is prepared ahead, so skipping feels instant.
+- **Library**: like songs, save albums, artists and playlists, make your own playlists, and save the current queue as a playlist.
+- **Share a song**: copy its YouTube Music link to send to a friend.
+- **Import a playlist from a link** (YouTube or YouTube Music): paste the link and it becomes a playlist in Audiofy.
+- **Endless radio**: when the queue runs out, similar songs keep playing.
 
-### 📝 Lirik tersinkron
-<img src="docs/images/lyrics.png" alt="Lirik tersinkron" width="100%">
+### 🌐 English or Indonesian
+- The app starts in **English**. Switch to **Bahasa Indonesia** (and back) with the flag buttons at the top of the window.
 
-- Lirik bergerak mengikuti lagu, baris yang sedang dinyanyikan disorot. Klik satu baris untuk melompat ke bagian itu.
-- Bila lirik terasa terlalu cepat/lambat, geser dengan tombol **− / +** (tahan Shift untuk 5 detik).
+### 📝 Synced lyrics
+<img src="docs/images/lyrics.png" alt="Synced lyrics" width="100%">
 
-### 🎬 Video musik resmi
-- Tombol **Video** menampilkan video musik resminya, sinkron dengan lagu, dengan lirik sebagai subtitle.
-- Lirik otomatis **menunggu intro video** sebelum mulai.
-- Pilih kualitas video seperti di YouTube: Otomatis, 1440p, 1080p, 720p, 480p, 360p. Ganti kualitas tanpa layar berkedip.
+- Lyrics scroll with the song and the line being sung is highlighted. Click a line to jump there.
+- If the lyrics run early or late, nudge them with the **− / +** buttons (hold Shift for 5 seconds).
+
+### 🎬 Official music videos
+- The **Video** button shows the official music video in sync with the song, with the lyrics as subtitles.
+- Lyrics **wait for the video's intro** before they start.
+- Pick the video quality like on YouTube: Auto, 1440p, 1080p, 720p, 480p, 360p. Changing it doesn't make the picture flicker.
 
 ### 🎤 Karaoke & 🎚️ Equalizer
-<img src="docs/images/equalizer.png" alt="Equalizer dan karaoke" width="100%">
+<img src="docs/images/equalizer.png" alt="Equalizer and karaoke" width="100%">
 
-- **Karaoke** dengan satu tombol: suara penyanyi dihilangkan, bass dan drum tetap ada. Kekuatannya bisa diatur.
-- **Equalizer** dengan pilihan siap pakai: Pop, Rock, Jazz, Klasik, R&B, Hip-hop, Dance/EDM, Akustik, Vokal jernih, Bass kuat, Treble kuat. Setiap slider punya nama dan penjelasan (Bass dalam, Bass, Tengah, Kejelasan, Treble).
-- Efek lain: kecepatan putar, reverb, Slowed + reverb, Nightcore, penyamaan volume antar lagu, crossfade.
+- **Karaoke** in one click: the lead vocal is removed while the bass and drums stay. You can set how strong it is.
+- **Equalizer** presets: Pop, Rock, Jazz, Classical, R&B, Hip-hop, Dance/EDM, Acoustic, Clear vocals, Bass boost, Treble boost. Every slider is named and explained (Sub-bass, Bass, Mids, Clarity, Treble).
+- More effects: playback speed, reverb, Slowed + reverb, Nightcore, volume levelling between songs, crossfade.
 
 ### 🪟 Mini player
 <img src="docs/images/mini-player.png" alt="Mini player" width="100%">
 
-- **Ctrl+M** (atau tombol di kanan atas) mengubah Audiofy jadi jendela kecil yang selalu di atas aplikasi lain, cocok sambil kerja atau main game.
-- Menampilkan sampul dan lirik, atau **video musik** bila mode Video menyala.
+- **Ctrl+M** (or the button at the top right) turns Audiofy into a small window that stays on top of other apps, handy while working or gaming.
+- Shows the cover and lyrics, or the **music video** when Video mode is on.
 
-### 🧩 Menyatu dengan Windows
-- **System tray**: tombol X menyembunyikan Audiofy ke dekat jam, musik tetap jalan. Klik kanan ikonnya untuk putar/jeda, lagu berikutnya, atau keluar.
-- **Tombol media keyboard** dan kontrol media Windows (layar kunci, panel volume) ikut berfungsi.
-- **Pilih speaker / headset** langsung dari Audiofy (bawaannya mengikuti Windows).
-- **Timer tidur**: 15–90 menit atau di akhir lagu; musik mengecil pelan lalu berhenti.
+### 🧩 Made for Windows
+- **System tray**: the X button and minimize hide Audiofy next to the clock while the music keeps playing. Right-click the icon to play/pause, skip, change the volume or quit.
+- **Taskbar controls**: hover over Audiofy's taskbar icon for previous, play/pause, next, mute and volume buttons.
+- **Media keys** and Windows media controls (lock screen, volume flyout) work too.
+- **Choose your speakers or headset** right in Audiofy (it follows Windows by default).
+- **Sleep timer**: 15–90 minutes or at the end of the song; the music fades out, then stops.
 
-### 💬 Status Discord
-- Teman Discord melihat **"Listening to Audiofy"** lengkap dengan judul, penyanyi, sampul, dan sisa waktu.
-- Nyala/mati dengan satu klik lewat tombol Discord di bar pemutar.
+### 💬 Discord status
+- Your Discord friends see **"Listening to Audiofy"** with the title, artist, cover and time left.
+- Turn it on or off with the **Discord** button at the top of the window. Green light = your song is showing, yellow = waiting for the Discord app.
 
-### 🔒 Aman & praktis
-- **Update otomatis**: Audiofy memberi tahu bila ada versi baru dan memasangnya dengan satu klik. Setiap update ditandatangani, jadi update palsu ditolak.
-- **Cadangkan & pulihkan** koleksi dan pengaturan ke satu file, untuk pindah PC atau setelah instal ulang Windows.
-- **Ringan**: hanya sekitar 20 MB, memakai mesin web bawaan Windows (WebView2), dan lagu tidak disimpan ke disk.
-
----
-
-## ⬇️ Unduh & pasang
-
-Buka **[halaman rilis terbaru](https://github.com/RoocHelper/audiofy/releases/latest)**, lalu pilih:
-
-| File | Untuk siapa |
-|---|---|
-| `Audiofy_x.y.z_x64-setup.exe` | **Disarankan.** Dipasang seperti aplikasi biasa, muncul di menu Start, dan **update otomatis**. |
-| `Audiofy_x.y.z_portable.zip` | Tanpa instal: ekstrak lalu jalankan `Audiofy.exe` (biarkan `WebView2Loader.dll` di folder yang sama). Tidak bisa update sendiri. |
-
-**Kebutuhan:** Windows 10 atau 11 (64-bit) dan Microsoft Edge WebView2 (sudah ada di Windows 11 dan kebanyakan Windows 10).
-
-> **Windows SmartScreen** mungkin menampilkan "Windows protected your PC" karena aplikasi ini belum memiliki sertifikat berbayar. Klik **More info → Run anyway**.
+### 🔒 Safe & handy
+- **Automatic updates**: Audiofy tells you when a new version is out and installs it in one click. Every update is signed, so fake updates are refused.
+- **Back up & restore** your library and settings to a single file, for a new PC or after reinstalling Windows.
+- **Light**: about 20 MB, uses Windows' built-in web engine (WebView2), and songs are never saved to disk.
 
 ---
 
-## ⌨️ Pintasan keyboard
+## ⬇️ Download & install
 
-| Tombol | Fungsi |
+Open the **[latest release](https://github.com/RoocHelper/audiofy/releases/latest)** and choose:
+
+| File | For |
 |---|---|
-| `Spasi` | Putar / jeda |
-| `Ctrl + →` / `Ctrl + ←` | Lagu berikutnya / sebelumnya |
-| `Ctrl + ↑` / `Ctrl + ↓` | Volume naik / turun |
-| `Ctrl + K` atau `/` | Cari |
+| `Audiofy_x.y.z_x64-setup.exe` | **Recommended.** Installs like a normal app, shows up in the Start menu, and **updates itself**. |
+| `Audiofy_x.y.z_portable.zip` | No install: unzip and run `Audiofy.exe` (keep `WebView2Loader.dll` in the same folder). Doesn't update itself. |
+
+**Requirements:** Windows 10 or 11 (64-bit) and Microsoft Edge WebView2 (already on Windows 11 and most Windows 10 PCs).
+
+> **Windows SmartScreen** may say "Windows protected your PC" because the app doesn't have a paid code-signing certificate yet. Click **More info → Run anyway**.
+
+---
+
+## ⌨️ Keyboard shortcuts
+
+| Key | Action |
+|---|---|
+| `Space` | Play / pause |
+| `Ctrl + →` / `Ctrl + ←` | Next / previous song |
+| `Ctrl + ↑` / `Ctrl + ↓` | Volume up / down |
+| `Ctrl + K` or `/` | Search |
 | `Ctrl + M` | Mini player |
-| `F` | Layar penuh (mode Video) |
-| `Esc` | Tutup layar pemutar |
+| `F` | Full screen (Video mode) |
+| `Esc` | Close the player screen |
 
 ---
 
-## ❓ Pertanyaan umum
+## ❓ FAQ
 
 <details>
-<summary><b>Perlu akun Google / YouTube?</b></summary>
+<summary><b>Do I need a Google / YouTube account?</b></summary>
 
-Tidak. Audiofy bekerja tanpa login. Koleksi dan playlist disimpan di PC-mu sendiri. Playlist dari akun YouTube bisa dibawa dengan fitur **Impor playlist dari link** (playlist harus Public atau Unlisted).
+No. Audiofy works without signing in. Your library and playlists are kept on your own PC. Bring playlists from your YouTube account with **Import a playlist from a link** (the playlist must be Public or Unlisted).
 </details>
 
 <details>
-<summary><b>Lirik lagu tertentu tidak ada?</b></summary>
+<summary><b>How do I see charts from another country?</b></summary>
 
-Lirik diambil dari [LrcLib](https://lrclib.net), database lirik dari komunitas, dengan cadangan lirik dari YouTube Music. Beberapa lagu memang belum punya lirik di sana.
+Go to **Settings → Content → Music region** and pick a country (or "Automatic" to follow your Windows region). **Second chart** adds another chart beside it: Western (United States), United Kingdom, Korea, Japan or Global.
 </details>
 
 <details>
-<summary><b>Di mana data saya disimpan?</b></summary>
+<summary><b>Some songs have no lyrics?</b></summary>
 
-Di `%APPDATA%\com.williams.audiofy` (koleksi, playlist, pengaturan, log). Gunakan **Pengaturan → Cadangan koleksi** untuk menyimpannya ke file.
+Lyrics come from [LrcLib](https://lrclib.net), a community lyrics database, with YouTube Music's own lyrics as a backup. Some songs just don't have lyrics there yet.
 </details>
 
 <details>
-<summary><b>Status Discord tidak muncul?</b></summary>
+<summary><b>Where is my data kept?</b></summary>
 
-Pastikan aplikasi Discord **desktop** sedang terbuka, dan di Discord **User Settings → Activity Privacy → Share my activity** menyala. Tombol Discord di bar pemutar menunjukkan statusnya: titik hijau berarti lagu sedang tampil, titik kuning berarti menunggu Discord dibuka.
+In `%APPDATA%\com.williams.audiofy` (library, playlists, settings, log). Use **Settings → Library backup** to save it to a file.
+</details>
+
+<details>
+<summary><b>My Discord status doesn't show up?</b></summary>
+
+Make sure the Discord **desktop** app is open, and in Discord, **User Settings → Activity Privacy → Share my activity** is on. The Discord button at the top of Audiofy shows the status: a green light means your song is showing, yellow means it's waiting for Discord to open.
 </details>
 
 ---
 
-## 🙏 Terima kasih
+## 🙏 Thanks
 
-Audiofy dikembangkan dari **[Square](https://github.com/Lelonio/Square)** karya Lelonio (aplikasi YouTube Music untuk Android), dan dibangun dengan:
+Audiofy is built on **[Square](https://github.com/Lelonio/Square)** by Lelonio (a YouTube Music app for Android), and made with:
 [Tauri](https://tauri.app) · [Svelte](https://svelte.dev) · [RustyPipe](https://codeberg.org/ThetaDev/rustypipe) · [yt-dlp-ejs](https://github.com/yt-dlp/ejs) · [LrcLib](https://lrclib.net) · [Phosphor Icons](https://phosphoricons.com)
 
-## 📄 Lisensi
+## 📄 License
 
-[GPL-3.0](LICENSE). Kode sumber setiap versi ada di halaman rilis (`audiofy-source-x.y.z.zip`).
+[GPL-3.0](LICENSE). The source code of every version is on the releases page (`audiofy-source-x.y.z.zip`).
 
-Audiofy adalah proyek pribadi dan **tidak berafiliasi dengan Google, YouTube, atau Discord**. Semua lagu, video, dan merek dagang adalah milik pemiliknya masing-masing.
-
----
-
-<details>
-<summary><b>🇬🇧 English</b></summary>
-
-**Audiofy (by Williams)** is a lightweight YouTube Music player for Windows 10/11. No account needed.
-
-- Search and stream songs, albums, artists and playlists; home charts for your country plus Western (US) charts, and "For you" picks from what you play most.
-- Share a song (copy its link), save the queue as a playlist.
-- Synced lyrics, official music videos (with lyric subtitles that wait for the video's intro), selectable video quality.
-- One-click karaoke (removes the lead vocal, keeps bass and drums), equalizer presets, speed, reverb, crossfade.
-- Mini player (Ctrl+M) with cover or video, system tray, media keys, output device picker, sleep timer.
-- Discord "Listening to" status, import playlists from YouTube links, backup and restore, signed automatic updates.
-
-**Download:** [latest release](https://github.com/RoocHelper/audiofy/releases/latest). Choose the `setup.exe` for automatic updates, or the portable zip.
-
-Based on [Square](https://github.com/Lelonio/Square) by Lelonio. Licensed under GPL-3.0. Not affiliated with Google, YouTube or Discord.
-</details>
+Audiofy is a personal project and is **not affiliated with Google, YouTube or Discord**. All songs, videos and trademarks belong to their owners.
