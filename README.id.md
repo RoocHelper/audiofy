@@ -32,19 +32,33 @@
 - **Beranda** berisi lagu teratas dan lagu yang sedang naik di Amerika Serikat (bisa diganti ke negara mana pun, termasuk Indonesia, di Pengaturan), rilis baru, serta genre.
 - **Untukmu**: rekomendasi dari artis yang paling sering kamu putar dan sukai.
 - **Langsung diputar** tanpa menunggu unduhan; lagu berikutnya disiapkan lebih dulu, jadi pindah lagu terasa instan.
-- **Koleksi**: suka lagu, simpan album/artis/playlist, buat playlist sendiri, dan simpan antrean yang sedang diputar jadi playlist.
+- **Koleksi**: suka lagu, simpan album/artis/playlist, buat playlist sendiri, dan simpan antrean yang sedang diputar jadi playlist. Bisa diurutkan dan disaring menurut judul, artis, album, durasi, atau waktu ditambahkan.
 - **Bagikan lagu**: salin link YouTube Music-nya untuk dikirim ke teman.
 - **Impor playlist dari link** YouTube / YouTube Music: tempel link-nya, isinya jadi playlist di Audiofy.
 - **Radio otomatis**: saat antrean habis, lagu serupa terus diputar.
+- **Radio**: stasiun dari mood dan genre YouTube Music (Chill, Workout, Pop, Rock…), lima dari masing-masing, berganti setiap hari.
+- Lagu yang diputar dari **pencarian** dilanjutkan dengan lagu-lagu yang mirip.
 
 ### 🌐 Bahasa Inggris atau Indonesia
 - Audiofy dibuka dalam **bahasa Inggris**. Ganti ke **Bahasa Indonesia** (dan sebaliknya) dengan tombol bendera di bagian atas jendela.
+
+### 🎮 Aman untuk streaming
+<img src="docs/images/streaming.png" alt="Aman untuk streaming" width="100%">
+
+- Musik yang boleh diputar saat live di **Twitch, YouTube, atau Kick**, per genre: Gaming & EDM, Lofi & chill, Nuansa Jepang (gaya anime), Synthwave, Hip-hop beats, Ambient & fokus, Rock.
+- Hanya dari sumber resmi: **StreamBeats** karya Harris Heller (gratis, tanpa kredit) dan **NCS** (gratis dengan kredit). Bukan unggahan ulang "no copyright" sembarangan.
+- **Mode streaming** (tombol di atas): hanya lagu aman yang diputar, lagu lain dilewati, dan saat antrean habis Audiofy lanjut dengan lagu aman dari genre yang sama, jadi tidak ada lagu acak yang masuk ke stream.
+- Saat Mode streaming aktif, **Beranda hanya menampilkan lagu aman**: satu tombol memutar semuanya secara acak, plus satu baris per genre. Pencarian tetap menampilkan semua lagu, dengan perisai hijau atau merah di tiap lagu.
+- **Salin semua kredit** satu sesi streaming dengan satu tombol, siap ditempel di deskripsi stream atau VOD.
+- **OBS**: Audiofy bisa menulis lagu yang diputar ke file teks (sumber Text) atau menampilkan overlay "Now playing" dengan sampul dan bar waktu (sumber Browser).
+- Perisai hijau di pemutar menandakan lagu aman; klik (atau klik kanan lagu > **Salin kredit**) untuk menyalin kredit ke deskripsi stream.
 
 ### 📝 Lirik tersinkron
 <img src="docs/images/lyrics.png" alt="Lirik tersinkron" width="100%">
 
 - Lirik bergerak mengikuti lagu, baris yang sedang dinyanyikan disorot. Klik satu baris untuk melompat ke bagian itu.
 - Bila lirik terasa terlalu cepat/lambat, geser dengan tombol **− / +** (tahan Shift untuk 5 detik).
+- **Huruf Latin** untuk lagu Korea, Jepang, dan Cina (사랑해 → saranghae), di bawah lirik atau menggantikannya.
 
 ### 🎬 Video musik resmi
 - Tombol **Video** menampilkan video musik resminya, sinkron dengan lagu, dengan lirik sebagai subtitle.
@@ -55,6 +69,14 @@
 <img src="docs/images/equalizer.png" alt="Equalizer dan karaoke" width="100%">
 
 - **Karaoke** dengan satu tombol: suara penyanyi dihilangkan, bass dan drum tetap ada. Kekuatannya bisa diatur.
+- **Ganti nada (key)** naik atau turun (±6) tanpa mengubah kecepatan, supaya pas dengan suaramu.
+- **Dengar suaraku**: suara mic keluar di speaker atau headset bersama musik, dengan gema dan reverb. Audiofy menampilkan jeda yang terukur; paling enak pakai headset kabel.
+- **Layar karaoke**: video musik layar penuh dengan lirik di bawah seperti subtitle karaoke (baris yang dinyanyikan dan baris berikutnya), hitung mundur 3‑2‑1 sebelum mulai menyanyi lagi, dan warna berjalan per kata bila liriknya punya waktu per kata. Ukuran lirik (kecil/sedang/besar) dan posisinya (bawah/atas) bisa diatur, dan ada slider **vokal panduan** untuk menyisakan sedikit suara penyanyi.
+- **Antrean nyanyi** untuk pesta: tulis siapa yang menyanyi tiap lagu, dan namanya muncul saat lagunya mulai ("Berikutnya: Sari" menjelang akhir lagu sebelumnya).
+- Saat layar penuh (layar karaoke dan video musik), bar dan kursor menghilang setelah 3 detik mouse diam; gerakkan mouse untuk memunculkannya lagi.
+
+<img src="docs/images/karaoke.png" alt="Layar karaoke" width="100%">
+
 - **Equalizer** dengan pilihan siap pakai: Pop, Rock, Jazz, Klasik, R&B, Hip-hop, Dance/EDM, Akustik, Vokal jernih, Bass kuat, Treble kuat. Setiap slider punya nama dan penjelasan (Bass dalam, Bass, Tengah, Kejelasan, Treble).
 - Efek lain: kecepatan putar, reverb, Slowed + reverb, Nightcore, penyamaan volume antar lagu, crossfade.
 
@@ -142,7 +164,7 @@ Pastikan aplikasi Discord **desktop** sedang terbuka, dan di Discord **User Sett
 ## 🙏 Terima kasih
 
 Audiofy dikembangkan dari **[Square](https://github.com/Lelonio/Square)** karya Lelonio (aplikasi YouTube Music untuk Android), dan dibangun dengan:
-[Tauri](https://tauri.app) · [Svelte](https://svelte.dev) · [RustyPipe](https://codeberg.org/ThetaDev/rustypipe) · [yt-dlp-ejs](https://github.com/yt-dlp/ejs) · [LrcLib](https://lrclib.net) · [Phosphor Icons](https://phosphoricons.com)
+[Tauri](https://tauri.app) · [Svelte](https://svelte.dev) · [RustyPipe](https://codeberg.org/ThetaDev/rustypipe) · [yt-dlp-ejs](https://github.com/yt-dlp/ejs) · [LrcLib](https://lrclib.net) · [SoundTouchJS](https://github.com/cutterbl/SoundTouchJS) · [Phosphor Icons](https://phosphoricons.com)
 
 ## 📄 Lisensi
 

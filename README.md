@@ -32,19 +32,33 @@
 - **Home** shows the top songs and trending songs in the United States (or any country you pick in Settings), plus new releases and genres.
 - **For you**: picks based on the artists you play and like most.
 - **Plays instantly**, without waiting for a download; the next song is prepared ahead, so skipping feels instant.
-- **Library**: like songs, save albums, artists and playlists, make your own playlists, and save the current queue as a playlist.
+- **Library**: like songs, save albums, artists and playlists, make your own playlists, and save the current queue as a playlist. Sort and filter them by title, artist, album, duration or date added.
 - **Share a song**: copy its YouTube Music link to send to a friend.
 - **Import a playlist from a link** (YouTube or YouTube Music): paste the link and it becomes a playlist in Audiofy.
 - **Endless radio**: when the queue runs out, similar songs keep playing.
+- **Radio**: stations from YouTube Music's moods and genres (Chill, Workout, Pop, Rock…), five of each, changing every day.
+- A song played from **search** is followed by songs like it.
 
 ### 🌐 English or Indonesian
 - The app starts in **English**. Switch to **Bahasa Indonesia** (and back) with the flag buttons at the top of the window.
+
+### 🎮 Safe for streaming
+<img src="docs/images/streaming.png" alt="Safe for streaming" width="100%">
+
+- Music you may play live on **Twitch, YouTube or Kick**, sorted into genres: Gaming & EDM, Lofi & chill, Japanese vibes (anime-style), Synthwave, Hip-hop beats, Ambient & focus, Rock.
+- Only from the official sources: **StreamBeats** by Harris Heller (free, no credit needed) and **NCS** (free with a credit). No random "no copyright" re-uploads.
+- **Streaming mode** (button at the top): only safe songs play, anything else is skipped, and when the queue runs out Audiofy keeps going with safe songs from the same genre, so nothing random ever reaches your stream.
+- While Streaming mode is on, **Home shows only safe songs**: one button plays all of them shuffled, plus a row per genre. Search still shows everything, with a green or red shield on each song.
+- **Copy all credits** of a streaming session with one button, ready for the stream or VOD description.
+- **OBS**: Audiofy can write the song now playing to a text file (Text source) or show a "Now playing" overlay with cover and time bar (Browser source).
+- A green shield in the player shows the song is safe; click it (or right-click a song > **Copy credit**) to copy the credit line for your stream description.
 
 ### 📝 Synced lyrics
 <img src="docs/images/lyrics.png" alt="Synced lyrics" width="100%">
 
 - Lyrics scroll with the song and the line being sung is highlighted. Click a line to jump there.
 - If the lyrics run early or late, nudge them with the **− / +** buttons (hold Shift for 5 seconds).
+- **Latin letters** for Korean, Japanese and Chinese songs (사랑해 → saranghae), under the lyrics or instead of them.
 
 ### 🎬 Official music videos
 - The **Video** button shows the official music video in sync with the song, with the lyrics as subtitles.
@@ -55,6 +69,14 @@
 <img src="docs/images/equalizer.png" alt="Equalizer and karaoke" width="100%">
 
 - **Karaoke** in one click: the lead vocal is removed while the bass and drums stay. You can set how strong it is.
+- **Change the key** up or down (±6) without changing the speed, to suit your voice.
+- **Hear my voice**: your microphone plays through the speakers or headset with the music, with echo and reverb. Audiofy shows the delay it measured; a wired headset works best.
+- **Karaoke screen**: the music video full screen with the lyrics at the bottom like karaoke subtitles (the line to sing and the next one), a 3‑2‑1 countdown before the singing starts again, and word-by-word colour when the lyrics have word timing. Lyrics size (small/medium/large) and position (bottom/top), and a **guide vocals** slider that keeps a little of the singer's voice.
+- **Singing queue** for parties: write who sings each song, and their name pops up when the song starts ("Next: Sari" near the end of the song before).
+- In full screen (karaoke screen and music videos) the bars and the pointer fade away after 3 still seconds; move the mouse to bring them back.
+
+<img src="docs/images/karaoke.png" alt="Karaoke screen" width="100%">
+
 - **Equalizer** presets: Pop, Rock, Jazz, Classical, R&B, Hip-hop, Dance/EDM, Acoustic, Clear vocals, Bass boost, Treble boost. Every slider is named and explained (Sub-bass, Bass, Mids, Clarity, Treble).
 - More effects: playback speed, reverb, Slowed + reverb, Nightcore, volume levelling between songs, crossfade.
 
@@ -148,7 +170,7 @@ Make sure the Discord **desktop** app is open, and in Discord, **User Settings �
 ## 🙏 Thanks
 
 Audiofy is built on **[Square](https://github.com/Lelonio/Square)** by Lelonio (a YouTube Music app for Android), and made with:
-[Tauri](https://tauri.app) · [Svelte](https://svelte.dev) · [RustyPipe](https://codeberg.org/ThetaDev/rustypipe) · [yt-dlp-ejs](https://github.com/yt-dlp/ejs) · [LrcLib](https://lrclib.net) · [Phosphor Icons](https://phosphoricons.com)
+[Tauri](https://tauri.app) · [Svelte](https://svelte.dev) · [RustyPipe](https://codeberg.org/ThetaDev/rustypipe) · [yt-dlp-ejs](https://github.com/yt-dlp/ejs) · [LrcLib](https://lrclib.net) · [SoundTouchJS](https://github.com/cutterbl/SoundTouchJS) · [Phosphor Icons](https://phosphoricons.com)
 
 ## 📄 License
 
