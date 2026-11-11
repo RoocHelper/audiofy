@@ -29,15 +29,11 @@
 
 ### 🎵 Dengarkan apa saja
 - **Cari** lagu, album, artis, dan playlist dari katalog YouTube Music.
-- **Beranda** berisi lagu teratas dan lagu yang sedang naik di Amerika Serikat (bisa diganti ke negara mana pun, termasuk Indonesia, di Pengaturan), rilis baru, serta genre.
-- **Untukmu**: rekomendasi dari artis yang paling sering kamu putar dan sukai.
+- **Beranda** berisi lagu teratas di negaramu (otomatis dari lokasi perangkat) **dan** lagu teratas global, rilis baru, serta genre.
 - **Langsung diputar** tanpa menunggu unduhan; lagu berikutnya disiapkan lebih dulu, jadi pindah lagu terasa instan.
-- **Koleksi**: suka lagu, simpan album/artis/playlist, buat playlist sendiri, dan simpan antrean yang sedang diputar jadi playlist. Bisa diurutkan dan disaring menurut judul, artis, album, durasi, atau waktu ditambahkan.
-- **Bagikan lagu**: salin link YouTube Music-nya untuk dikirim ke teman.
+- **Koleksi**: suka lagu, simpan album/artis/playlist, dan buat playlist sendiri.
 - **Impor playlist dari link** YouTube / YouTube Music: tempel link-nya, isinya jadi playlist di Audiofy.
 - **Radio otomatis**: saat antrean habis, lagu serupa terus diputar.
-- **Radio**: stasiun dari mood dan genre YouTube Music (Chill, Workout, Pop, Rock…), lima dari masing-masing, berganti setiap hari.
-- Lagu yang diputar dari **pencarian** dilanjutkan dengan lagu-lagu yang mirip.
 
 ### 🌐 Bahasa Inggris atau Indonesia
 - Audiofy dibuka dalam **bahasa Inggris**. Ganti ke **Bahasa Indonesia** (dan sebaliknya) dengan tombol bendera di bagian atas jendela.
@@ -56,8 +52,12 @@
 ### 📝 Lirik tersinkron
 <img src="docs/images/lyrics.png" alt="Lirik tersinkron" width="100%">
 
-- Lirik bergerak mengikuti lagu, baris yang sedang dinyanyikan disorot. Klik satu baris untuk melompat ke bagian itu.
-- Bila lirik terasa terlalu cepat/lambat, geser dengan tombol **− / +** (tahan Shift untuk 5 detik).
+- Lirik bergerak mengikuti lagu dan **menyala per kata saat dinyanyikan**: tiap kata terisi, sedikit mengembang, terangkat, lalu tenang. Baris lain meredup dan makin blur sesuai jaraknya, dan jeda instrumental jadi tiga titik yang berdenyut.
+- Waktu per kata diambil dari [LrcLib](https://lrclib.net). Lagu yang belum punya waktu per kata tetap tampil per baris.
+- Lebih suka tampilan sederhana, atau PC-nya sudah lama? **Pengaturan → Lirik → Gaya lirik → Per baris (biasa)**.
+- Klik satu baris untuk melompat ke bagian itu.
+- Bila lirik terasa terlalu cepat atau lambat, geser dengan tombol **− / +** di samping "Lirik" (tahan Shift untuk 5 detik).
+- **Jeda lirik** per speaker atau headset (**Pengaturan → Lirik**): headset Bluetooth memainkan suara sesaat setelah pemutar, jadi liriknya terasa cepat. Geser sampai pas; setelannya diingat sendiri-sendiri untuk tiap perangkat.
 - **Huruf Latin** untuk lagu Korea, Jepang, dan Cina (사랑해 → saranghae), di bawah lirik atau menggantikannya.
 
 ### 🎬 Video musik resmi
@@ -71,7 +71,7 @@
 - **Karaoke** dengan satu tombol: suara penyanyi dihilangkan, bass dan drum tetap ada. Kekuatannya bisa diatur.
 - **Ganti nada (key)** naik atau turun (±6) tanpa mengubah kecepatan, supaya pas dengan suaramu.
 - **Dengar suaraku**: suara mic keluar di speaker atau headset bersama musik, dengan gema dan reverb. Audiofy menampilkan jeda yang terukur; paling enak pakai headset kabel.
-- **Layar karaoke**: video musik layar penuh dengan lirik di bawah seperti subtitle karaoke (baris yang dinyanyikan dan baris berikutnya), hitung mundur 3‑2‑1 sebelum mulai menyanyi lagi, dan warna berjalan per kata bila liriknya punya waktu per kata. Ukuran lirik (kecil/sedang/besar) dan posisinya (bawah/atas) bisa diatur, dan ada slider **vokal panduan** untuk menyisakan sedikit suara penyanyi.
+- **Layar karaoke**: video musik layar penuh dengan lirik di bawah seperti subtitle karaoke (baris yang dinyanyikan dan baris berikutnya), warna berjalan per kata, dan hitung mundur 3‑2‑1 sebelum mulai menyanyi lagi. Ukuran lirik (kecil/sedang/besar) dan posisinya (bawah/atas) bisa diatur, dan ada slider **vokal panduan** untuk menyisakan sedikit suara penyanyi.
 - **Antrean nyanyi** untuk pesta: tulis siapa yang menyanyi tiap lagu, dan namanya muncul saat lagunya mulai ("Berikutnya: Sari" menjelang akhir lagu sebelumnya).
 - Saat layar penuh (layar karaoke dan video musik), bar dan kursor menghilang setelah 3 detik mouse diam; gerakkan mouse untuk memunculkannya lagi.
 
@@ -99,6 +99,7 @@
 
 ### 🔒 Aman & praktis
 - **Update otomatis**: Audiofy memberi tahu bila ada versi baru dan memasangnya dengan satu klik. Setiap update ditandatangani, jadi update palsu ditolak.
+- **Pengaturanmu tetap milikmu**: Audiofy hanya menyimpan setelan yang kamu ubah, jadi yang tidak pernah kamu sentuh ikut bawaan yang lebih baik di versi berikutnya, sementara pilihanmu sendiri tidak pernah ditimpa saat update.
 - **Cadangkan & pulihkan** koleksi dan pengaturan ke satu file, untuk pindah PC atau setelah instal ulang Windows.
 - **Ringan**: hanya sekitar 20 MB, memakai mesin web bawaan Windows (WebView2), dan lagu tidak disimpan ke disk.
 
@@ -148,6 +149,12 @@ Lirik diambil dari [LrcLib](https://lrclib.net), database lirik dari komunitas, 
 </details>
 
 <details>
+<summary><b>Kenapa ada lagu yang liriknya tidak menyala per kata?</b></summary>
+
+Karena tidak semua lirik di LrcLib punya waktu per kata; sebagian baru punya waktu per baris. Lagu seperti itu tetap tampil, hanya saja barisnya yang disorot, bukan katanya. Semakin banyak lirik yang dilengkapi di LrcLib, semakin banyak lagu yang menyala per kata, tanpa perlu update Audiofy.
+</details>
+
+<details>
 <summary><b>Di mana data saya disimpan?</b></summary>
 
 Di `%APPDATA%\com.williams.audiofy` (koleksi, playlist, pengaturan, log). Gunakan **Pengaturan → Cadangan koleksi** untuk menyimpannya ke file.
@@ -171,4 +178,3 @@ Audiofy dikembangkan dari **[Square](https://github.com/Lelonio/Square)** karya 
 [GPL-3.0](LICENSE). Kode sumber setiap versi ada di halaman rilis (`audiofy-source-x.y.z.zip`).
 
 Audiofy adalah proyek pribadi dan **tidak berafiliasi dengan Google, YouTube, atau Discord**. Semua lagu, video, dan merek dagang adalah milik pemiliknya masing-masing.
-
